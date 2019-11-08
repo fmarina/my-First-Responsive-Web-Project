@@ -1,0 +1,381 @@
+body{
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 0px;    
+    font-family: 'Raleway', sans-serif;
+    min-width: 372px;
+}
+
+#logo{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+#img-logo{
+    width: 70px;
+    height: 70px;
+}
+
+nav{
+    background: #e9e9e9;
+}
+nav ul{    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;  
+    height: 55px; 
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    font-size: 16px;
+    text-decoration: none;
+    color: #d8203b;
+}
+
+#foto-encabezado{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("https://agathachristie.imgix.net/agatha-christie-photos/about-hero_180206_113647.jpg?auto=compress,format&fit=max&q=80&w=800");
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 90px 10px;
+}
+
+#foto-encabezado h2{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.links-encabezados{  
+    flex-direction: row;  
+    text-align: center;
+    margin-top: 30px;
+}
+
+.links-encabezados a{
+    margin: 3%;
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: #d8203b;
+    padding: 10px 50px;    
+    width: 100%;
+}
+
+.cambio-de-seccion{
+   text-align: center;
+   font-size: 1.3em;
+   background: #494a50;
+   color: #fff;
+   padding: 20px;
+}
+
+#first-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    overflow: hidden;
+}
+
+#first-section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#first-text{
+    max-width: 700px;
+    padding-left: 20px;
+    font-size: 1.4em;
+    line-height: 2;
+    text-align: justify;
+}
+
+#second-section{
+    background-color: #5b6064;
+}
+
+.special-text{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    line-height: 1.5;
+}
+
+#time-line{    
+    margin: auto;
+    min-width: 350px;
+    max-width: 75%;
+    margin-top: 5%;
+}
+
+.timeline-title{
+    font-size: 1.8em;
+    background-color: #494a50;
+    color: #DCDCDD;
+    padding: 25px;
+    padding-left: 70px;
+}
+#time-line p{
+    margin: 10px;
+}
+
+.list-group{ 
+    line-height: 2;
+    margin-top: -18px;
+    margin-bottom: -12px;
+    margin-left: 7%;
+    border-left: 3px solid rgba(0,0,0,.125);
+}
+.list-group-item{    
+    font-size: 1.3em;       
+    margin-right: 2.5%;
+    padding: 15px;
+    margin-left: -27px;
+    text-align: justify;
+}
+
+#the-last-one{
+    margin-bottom: 20px;
+}
+
+
+#articles-boxes{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.wrapper{
+    display: flex; 
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;    
+    border:  1px solid #e6e6e6;
+    margin:1%;
+}
+
+.header-box{
+    display: flex;
+    margin: auto;
+    padding: 10px 10px 0;
+}
+
+.img-box{        
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.content-box{
+    color: #222;
+    text-align: center;
+    padding: 12.5px;
+    font-size: 1.2em;
+}
+
+.content-box h3{
+    font-size: 1.4em;
+    border-bottom: 1px solid #d8203b;
+    padding-bottom: 3px;
+}
+
+.footer-box{
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
+
+.link-box{
+    display: inline-block;
+    color: white;
+    background: #d8203b;
+    border: 2px solid #d8203b;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.link-box:hover{
+    background-color: #c81e37;
+    border: 2px solid #c81e37;
+    transition: 0.4s;
+}
+
+.third-section {
+    background-color: #222;
+    text-align: center;
+}
+
+.third-section .special-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.third-section{
+    padding-bottom: 60px; 
+}
+.footer-third-section a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 1px solid #eeeeee;
+    padding: 10px 40px;      
+}
+
+.footer-third-section a:hover{
+    transition: 0.4s;
+    background-color: #fff;
+    color: #000;
+}
+
+#card-family{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#card-family .wrapper{
+    display: flex; 
+    max-width: 350px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.social-media{
+     text-align: center;
+}
+
+.social-media ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.social-media li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-list ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-list li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+#footer{
+    margin-bottom: 30px;
+}
+#footer p{
+    padding: 10px;
+}
+
+@media screen and (max-width: 970px){
+    #first-section{
+        display: flex;
+        padding: 30px;
+    }
+
+}
+
+@media screen and (max-width: 929px){
+    #first-section{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 50px;
+    }
+
+    #first-section img{
+        margin: auto;
+        max-width: 70%;
+    }
+    #first-text{
+        max-width: 80%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .special-text{
+        padding: 10px 40px;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 700px){
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+    .links-encabezados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .special-text{
+        font-size: 1.6em;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 501px){
+    /****************************/
+    #articles-boxes{
+        margin: auto;
+        padding: 20px 50px;
+    }
+
+    .wrapper{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    #card-family{
+        padding: 20px 50px;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;  
+    }
+    .footer-list ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 519px){
+    .list-group-item{
+        padding: 2px 0px;
+        font-size: 1.2em;
+    }
+    .timeline-title{
+        padding: 10px 20px;
+    }
+
+}
